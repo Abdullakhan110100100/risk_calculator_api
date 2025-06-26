@@ -1,4 +1,4 @@
-# risk_calculator_api
+# Risk_calculator_api
 ## Brief overview
 - This flask based rest api that calculates a mock rick score. Post endpoint is  '/api/v1/risk-score'
 - Accepts model metadata like region, data sensitivity, processor name and purpose.
