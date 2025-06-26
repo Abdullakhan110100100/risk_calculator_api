@@ -21,7 +21,8 @@
                           "region": "EU",
                           "processor_name": "UnknownVendor"
                           }'
-## Example usage
+## Example usage![Screenshot 2025-06-26 174148](https://github.com/user-attachments/assets/b890939a-3fa8-4c2e-8fbf-5c2bd03e759b)
+
    - Using either postman or bash we send the JSON {"purpose": "marketing","data_sensitivity": "high","region": "EU","processor_name": "UnknownVendor"}
    - Expected response would be : {
     "risk_breakdown": {"EU + High Sensitivity": 30,"Marketing Purpose": 15,"Unknown Vendor": 20},"risk_score": 65}
