@@ -9,7 +9,7 @@
 
 
 ## Setup instructions
-- Using docker desktop we can built the docker file. Open the risk_api_project folder and then open terminal from the same folder. Run these commands to build the image and run the container `docker build -t flask-risk-api .` and `docker run -p 8000:8000 flask-risk-api`
+- Download docker desktop and POstman (Optional). Using docker desktop we can build the docker file. Open the risk_api_project folder and then open terminal from the same folder. Run these commands to build the image and run the container `docker build -t flask-risk-api .` and `docker run -p 8000:8000 flask-risk-api`
 - I then used Postman to send post requests on the endpoint `http://localhost:8000/api/v1/risk-score`. I have attached the postman collection used here. Open Postman and click on import on the top left corner and attach this file.
 - Alternatively we can use bash commands to do the same but I'm more familiar with Postman.
   Example bash command : curl -X POST http://localhost:8000/api/v1/risk-score \
