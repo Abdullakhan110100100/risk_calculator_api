@@ -6,15 +6,7 @@
 - Token based authetication using bearer token. I used a fixed token.
 - Dockerized for easy deployment to the cloud and to run locally.
 
-## Folder structure
-rick_api_project/
-        |--app/
-        |      |--__init__.py
-        |      |--auth.py
-        |      |--rick_logic.py
-        |--Dockerfile
-        |--requirements.txt
-        |__run.py
+
 
 ## Setup instructions
 - Using docker desktop we can built the docker file. Open the risk_api_project folder and then open terminal from the same folder. Run these commands to build the image and run the container `docker build -t flask-risk-api .` and `docker run -p 8000:8000 flask-risk-api`
